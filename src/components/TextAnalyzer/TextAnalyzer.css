@@ -1,11 +1,19 @@
-#w3review{
-    width: 100%;
+.analyzer {
+  padding: 0 25px;
 }
-.resultBar{
+#w3review {
+  width: 100%;
+  margin: auto;
+  border: none;
+  margin-top: 20px;
+}
+.resultBar {
     display: flex;
     justify-content: space-around;
+    /* justify-content: normal; */
+    padding: 15px 26px;
 }
-.valueBar{
-    display: flex;
-    justify-content: space-around;
+.valueBar {
+  display: flex;
+  justify-content: space-around;
 }
