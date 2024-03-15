@@ -37,11 +37,17 @@ function TextAnalyzer() {
         for (const word of proN) {
             if (pronouns.includes(word.toLowerCase())) {
                setPronoun(word.length-1)
+            }else{
+                setPronoun(proNoun)
             }
         }
 
     }
     return (
+        <>
+        <div className="navbar">
+            
+        </div>
         <div className='analyzer'>
             <div className="resultBar">
                 <div className="words">
@@ -69,6 +75,7 @@ function TextAnalyzer() {
                 <textarea id="w3review" onChange={handleChangetext} name="w3review" rows="50" cols="50" placeholder='Paste your text here...'></textarea>
             </div>
         </div>
+        </>
     )
 }
 

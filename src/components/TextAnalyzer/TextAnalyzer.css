@@ -1,18 +1,41 @@
+.navbar{
+  height: 20px;
+  width: 100%;
+  border: 1px solid black;
+}
+
 .analyzer {
   padding: 0 25px;
 }
+
 #w3review {
   width: 100%;
+  height: 100vh;
   margin: auto;
   border: none;
   margin-top: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 26px;
+  background-color: #ffffff;
+  color: #9e9e9e;
+  outline: none;
 }
+
 .resultBar {
-    display: flex;
-    justify-content: space-around;
-    /* justify-content: normal; */
-    padding: 15px 26px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 26px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #9e9e9e;
+  font-size: 16px;
+  font-weight: 500;
 }
+
 .valueBar {
   display: flex;
   justify-content: space-around;
