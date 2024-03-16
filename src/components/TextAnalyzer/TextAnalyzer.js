@@ -46,7 +46,7 @@ function TextAnalyzer() {
     return (
         <>
         <div className="navbar">
-            
+            <span>Text Analyzer</span>
         </div>
         <div className='analyzer'>
             <div className="resultBar">
@@ -72,7 +72,7 @@ function TextAnalyzer() {
                 </div>
             </div>
             <div>
-                <textarea id="w3review" onChange={handleChangetext} name="w3review" rows="50" cols="50" placeholder='Paste your text here...'></textarea>
+                <textarea id="w3review" onChange={handleChangetext} name="w3review" rows="15" cols="50" placeholder='Paste your text here...'></textarea>
             </div>
         </div>
         </>
